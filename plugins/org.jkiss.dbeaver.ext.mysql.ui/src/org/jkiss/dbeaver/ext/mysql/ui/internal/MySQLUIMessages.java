@@ -30,6 +30,12 @@ public final class MySQLUIMessages extends NLS {
     private MySQLUIMessages() {
     }
 
+    /* dialog create db */
+    public static String dialog_create_db_title;
+    public static String dialog_create_db_label_encoding;
+    public static String dialog_create_db_label_collation;
+    public static String dialog_create_db_label_db_name;
+
     public static String dialog_connection_advanced_tab;
     public static String dialog_connection_advanced_tab_tooltip;
     public static String dialog_connection_general_tab;

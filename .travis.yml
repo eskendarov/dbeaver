@@ -1,17 +1,17 @@
-language: java
-script: mvn clean verify
-jdk:
-  - openjdk11
+# language: java
+# script: mvn clean verify
+# jdk:
+#   - openjdk11
 
-cache:
-  directories:
-    - $HOME/.m2
-    - $HOME/.gradle
+# cache:
+#   directories:
+#     - $HOME/.m2
+#     - $HOME/.gradle
 
-notifications:
-  email:
-    - serge@jkiss.org
+# notifications:
+#   email:
+#     - serge@jkiss.org
     
-before_install: echo "MAVEN_OPTS='-Xmx2048m -XX:MaxPermSize=512m'" > ~/.mavenrc
+# before_install: echo "MAVEN_OPTS='-Xmx2048m -XX:MaxPermSize=512m'" > ~/.mavenrc
 
-install: true
+# install: true
